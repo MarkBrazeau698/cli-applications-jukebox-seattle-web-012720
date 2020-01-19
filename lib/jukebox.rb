@@ -52,8 +52,8 @@ def run(songs)
       run(songs)
     elsif input == "help"
       help
-      #run(songs)
-    elsif input == "exit"
+      run(songs)
+    else input == "exit"
       exit_jukebox
     # else 
     #   puts "Invalid Command"
